@@ -24,6 +24,12 @@
     top:50%;
 }
 
+.sub-title{
+  text-align:center;
+  line-height:200px;
+
+}
+
 .menu{
   float:right;
   position:relative;
@@ -34,4 +40,36 @@
 .link{
     color:#ffffff;
     font-size:60px;
+}
+
+
+.contents-box{
+  height:650px;
+  margin:50 100px;
+}
+
+.work-box{
+  height:300px;
+  width:300px;
+  border:solid;
+  float:left;
+}
+
+.skill-box{
+  width:150px;
+  height:150px;
+  border:solid;
+  float:left;
+}
+
+.ill{
+  background-image:url(img/illustratoricon.png);
+  background-position: center center;
+  object-fit: contain;
+  height:auto;
+}
+
+footer{
+  color:#000000;
+  height:50px;
 }
