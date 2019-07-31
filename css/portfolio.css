@@ -40,6 +40,7 @@
 .link{
     color:#ffffff;
     font-size:60px;
+    display:block;
 }
 
 
@@ -55,12 +56,66 @@
   float:left;
 }
 
+
 .skill-box{
   width:150px;
   height:150px;
-  border:solid;
   float:left;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position:center center;
+  margin:0 30px 30px 0;
+  
 }
+
+.ruby{
+  background-image:url(img/ruby.svg);
+}
+
+.rails{
+  background-image:url(img/rails.svg);
+}
+
+.html{
+  background-image: url(img/html-5.svg)
+}
+
+.css{
+  background-image: url(img/css-3.svg)
+}
+
+.js{
+  background-image: url(img/javascript.svg)
+}
+
+.jquery{
+  background-image: url(img/jquery.svg)
+}
+
+.github{
+  background-image: url(img/github-icon.svg)
+}
+
+.ai{
+  background-image: url(img/github-icon.svg)
+}
+
+.ps{
+  background-image: url(img/github-icon.svg)
+}
+
+.xd{
+  background-image: url(img/github-icon.svg)
+}
+
+.id{
+  background-image: url(img/github-icon.svg)
+}
+
+.lr{
+  background-image: url(img/github-icon.svg)
+}
+
 
 .ill{
   background-image:url(img/illustratoricon.png);

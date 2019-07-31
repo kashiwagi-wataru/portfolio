@@ -3,25 +3,23 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/portfolio.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="js/portfolio.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/jquery-3.4.1.min.js"></script>
+     
     </head>
     <body>
-        
 
         <section class="main">
             <div class="main-image">
                 <p class="name">KASHIWAGI WATARU</p>
                 <div class="menu">
-                    <p href="" class="link">WORKS</p>
-                    <p class="link">PROFILE</p>
+                    <a href="#works" class="link" id="target">works</a>
+                    <a href="#profile" class="link">profile</a>
                 </div>
             </div>
         </seciton>
 
 
-        <section class="contents-box works">
+        <section class="contents-box" id="works">
             <h2 class="sub-title">Works</h2>
             <div class="work clearfix">
                 <div class="work-box">
@@ -46,21 +44,22 @@
         <section class="contents-box skills">
             <h2 class="sub-title">skill</h2>
             <div class="skill clearfix">
-                <div class="skill-box"></div>
-                <div class="skill-box 2nd"></div>
-                <div class="skill-box 3rd"></div>
-                <div class="skill-box 4th"></div>
-                <div class="skill-box 5th"></div>
-                <div class="skill-box 6th"></div>
-                <div class="skill-box 7th"></div>
-                <div class="skill-box 8th"></div>
-                <div class="skill-box 9th"></div>
-                <div class="skill-box 10th"></div>
-                <div class="skill-box 11th"></div>
+                <div class="skill-box ruby"></div>
+                <div class="skill-box rails"></div>
+                <div class="skill-box html"></div>
+                <div class="skill-box css"></div>
+                <div class="skill-box js"></div>
+                <div class="skill-box jquery"></div>
+                <div class="skill-box github"></div>
+                <div class="skill-box ai"></div>
+                <div class="skill-box ps"></div>
+                <div class="skill-box xd"></div>
+                <div class="skill-box id"></div>
+                <div class="skill-box lr"></div>
             </div>
         </section>
         
-        <section class="contents-box profile">
+        <section class="contents-box" id="profile">
             <h2 class="sub-title">profile</h2>
             <div class="myname">柏木　航</div>
             <div class="status">email:kashiwagiwataru224@gmail.com</div>
@@ -71,8 +70,14 @@
 
         <footer>
 
+            ©️KASHIWAGI WATARU
+
         </footer>
 
+
+
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="portfolio.js"></script>
     </body>
 
 </html>
