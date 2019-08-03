@@ -1,8 +1,5 @@
-
-
  $('a[href^="#"]').click(function() {
-   // スクロールの速度
-   var speed = 600; // ミリ秒で記述
+   var speed = 600; // ミリ秒
    var href = $(this).attr("href");
    var target = $(href == "#" || href == "" ? 'html' : href);
    var position = target.offset().top;
@@ -13,9 +10,17 @@
  });
 
 
-
  $('#target').hover(() => {
-    $('#target').css(`font-size`,`100px`)
+    $('#target').css(`font-size`,`7em`)
  },function() {
-    $('#target').css(`font-size`, `60px`)
+    $('#target').css(`font-size`, `4em`)
  });
+
+$(function(){
+  $('#mouseaction').mouseover(function(e){
+    $('#changecolor').addClass("visible");
+  })
+  $('#mouseaction').mouseout(function(e){
+    $('#changecolor').removeClass("visible");
+  })  
+});

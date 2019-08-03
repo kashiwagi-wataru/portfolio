@@ -1,19 +1,41 @@
-* {
+/* 共通 */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #6c6b6b;
   }
 
+  
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
   }
 
+  .contents-box{
+ 
+    margin:50 100px;
+  }
+
+  .viewall{
+    width:14em;
+    height:1em;
+    background-color:red;
+    margin:0 auto;
+  }
+
+  .viewtext{
+    color: white;
+    line-height:2em;
+    text-align:center;
+  }
+
+  /* main */
+
 .main-image{
     background-image:url(img/japan-2014619_1920.jpg);
-    height:800px;
+    height:100%;
 }
 
 .name{
@@ -39,15 +61,12 @@
 
 .link{
     color:#ffffff;
-    font-size:60px;
+    font-size:4em;
     display:block;
+    height:3em;
 }
 
-
-.contents-box{
-  height:650px;
-  margin:50 100px;
-}
+/* works */
 
 .work-box{
   height:300px;
@@ -56,6 +75,7 @@
   float:left;
 }
 
+/* skills */
 
 .skill-box{
   width:150px;
@@ -77,11 +97,13 @@
 }
 
 .html{
-  background-image: url(img/html-5.svg)
+  background-image: url(img/html-5.svg);
+  background-size: 70%;
 }
 
 .css{
-  background-image: url(img/css-3.svg)
+  background-image: url(img/css-3.svg);
+  background-size: 70%;
 }
 
 .js{
@@ -124,7 +146,47 @@
   height:auto;
 }
 
+
+
+#changecolor.visible{
+  background-color:#fff;
+  color:#522111;
+}
+
+
+#changecolor{
+  padding:20px 50px;
+  background-color:red;
+  color:#fff;
+  border:1px solid #000;
+  transition: 1.0s;
+}
+
+#changecolor.visible{
+  background-color:#fff;
+  color:#000;
+}
+
+/* profile */
+
+
+.profile-image{
+  background-image:url(img/niceguy.jpg);
+  border-radius:50%;
+  height:300px;
+  width:300px;
+  background-position: center;
+  background-size:200px;
+
+}
+
+
+
+/* footer */
+
 footer{
   background-color:#000000;
   height:80px;
 }
+
+
