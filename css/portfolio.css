@@ -14,7 +14,7 @@
   }
 
   .contents-box{
- 
+
     margin:50 100px;
   }
 
@@ -68,6 +68,9 @@
 
 /* works */
 
+#works{
+  height:200em;
+}
 .work-box{
   height:300px;
   width:300px;
