@@ -11,20 +11,17 @@
 
 
  $('.link').hover(() => {
-    $('.link').css(
-      'font-size', '5em',
-      'color', 'red1',
-    )
+    $('.link').css('font-size', '5em')
  },function() {
     $('.link').css(`font-size`, `4em`)
  });
 
-// $(".skill-box").hover(() => {
-//   $(".skill-box").css('background-color','red')
-// },function(){
-//   $(".skill-box").css('background-color','white')  
-// });
-
+$(".skill-box").hover(() => {
+  $(".skill-box").addClass('matter')
+  
+},function(){
+  $(".skill-box").removeClass('matter')  
+});
 
 
 $(function(){
