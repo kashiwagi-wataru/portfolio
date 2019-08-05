@@ -19,18 +19,14 @@
   }
 
   .viewall{
+
     width:14em;
-    height:1em;
+    height:4em;
     background-color:red;
-    margin:0 auto;
+    margin:3em auto;
   }
 
-  .viewtext{
-    color: white;
-    line-height:2em;
-    text-align:center;
-  }
-
+  
   /* main */
 
 .main-image{
@@ -68,9 +64,6 @@
 
 /* works */
 
-#works{
-  height:200em;
-}
 .work-box{
   height:300px;
   width:300px;
@@ -80,10 +73,15 @@
 
 /* skills */
 
+.skill{
+  margin:0 auto;
+  text-align:center;
+}
+
 .skill-box{
   width:150px;
   height:150px;
-  float:left;
+  display:inline-block;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position:center center;
@@ -150,25 +148,23 @@
 }
 
 
-
-#changecolor.visible{
+.viewtext.visible{
   background-color:#fff;
   color:#522111;
 }
 
 
-#changecolor{
-  padding:20px 50px;
+.viewtext{
   background-color:red;
   color:#fff;
   border:1px solid #000;
-  transition: 1.0s;
+  transition: 0.5s;
+  line-height:4em;
+  text-align:center;
+  }
 }
 
-#changecolor.visible{
-  background-color:#fff;
-  color:#000;
-}
+
 
 /* profile */
 
@@ -180,9 +176,7 @@
   width:300px;
   background-position: center;
   background-size:200px;
-
 }
-
 
 
 /* footer */

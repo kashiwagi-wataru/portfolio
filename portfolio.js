@@ -10,17 +10,29 @@
  });
 
 
- $('#target').hover(() => {
-    $('#target').css(`font-size`,`7em`)
+ $('.link').hover(() => {
+    $('.link').css(
+      'font-size', '5em',
+      'color', 'red1',
+    )
  },function() {
-    $('#target').css(`font-size`, `4em`)
+    $('.link').css(`font-size`, `4em`)
  });
 
+// $(".skill-box").hover(() => {
+//   $(".skill-box").css('background-color','red')
+// },function(){
+//   $(".skill-box").css('background-color','white')  
+// });
+
+
+
 $(function(){
-  $('#mouseaction').mouseover(function(e){
-    $('#changecolor').addClass("visible");
+  $(".viewall").mouseover(function(e){
+    $(".viewtext").addClass("visible")
   })
-  $('#mouseaction').mouseout(function(e){
-    $('#changecolor').removeClass("visible");
+  $(".viewall").mouseout(function(e){
+    $(".viewtext").removeClass("visible")
   })  
 });
+
